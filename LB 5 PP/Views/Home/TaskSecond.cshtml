@@ -1,0 +1,64 @@
+﻿<div id="TaskSecondSolution">
+	<form method="post">
+		<p>
+			<h1>
+				№2: Составить программу нахождения минимального элемента в каждом столбце и максимального в каждой строке квадратной матрицы
+
+			</h1>
+		</p>
+
+		<table>
+			<tr>
+				<th><input type="text" name="OneSbOneSr" /></th>
+				<th><input type="text" name="TwoSbOneSr" /></th>
+				<th><input type="text" name="ThreeSbOneSr" /></th>
+			</tr>
+
+			<tr>
+				<th><input type="text" name="OneSbTwoSr" /></th>
+				<th><input type="text" name="TwoSbTwoSr" /></th>
+				<th><input type="text" name="ThreeSbTwoSr" /></th>
+			</tr>
+
+			<tr>
+				<th><input type="text" name="OneSbThreeSr" /></th>
+				<th><input type="text" name="TwoSbThreeSr" /></th>
+				<th><input type="text" name="ThreeSbThreeSr" /></th>
+			</tr>
+		</table>
+
+		<p>
+			<input type="submit" value="Тык <3" />
+		</p>
+
+		<p>
+			<label>Минимальный элемент в первом столбце:</label>
+			<label>@ViewBag.MinSbOne</label>
+		</p>
+
+		<p>
+			<label>Минимальный элемент во втором столбце:</label>
+			<label>@ViewBag.MinSbTwo</label>
+		</p>
+
+		<p>
+			<label>Минимальный элемент в третьем столбце:</label>
+			<label>@ViewBag.MinSbThree</label>
+		</p>
+
+		<p>
+			<label>Максимальный элемент в первой строке:</label>
+			<label>@ViewBag.MaxSrOne</label>
+		</p>
+
+		<p>
+			<label>Максимальный элемент во второй строке:</label>
+			<label>@ViewBag.MaxSrTwo</label>
+		</p>
+
+		<p>
+			<label>Максимальный элемент в третьей строке:</label>
+			<label>@ViewBag.MaxSrThree</label>
+		</p>
+	</form>
+</div>
